@@ -1,0 +1,96 @@
+{ "about" : { "bg" : "page2.png",
+      "bg-color" : "#333",
+      "bg-repeat" : "no-repeat",
+      "factor" : "1",
+      "id" : "about",
+      "objects" : [ { "factor" : "0.6",
+            "id" : "cloud2",
+            "img" : "cloud1.png",
+            "position" : { "left" : "260",
+                "top" : "75"
+              },
+            "z-index" : "3"
+          },
+          { "factor" : "-1.5",
+            "id" : "baloon2",
+            "img" : "baloon.png",
+            "position" : { "left" : "0",
+                "top" : "470"
+              },
+            "z-index" : "4"
+          },
+          { "factor" : "0.8",
+            "id" : "moon2",
+            "img" : "moon.png",
+            "position" : { "left" : "55",
+                "top" : "40"
+              },
+            "z-index" : "2"
+          },
+          { "factor" : "0.95",
+            "id" : "stars",
+            "img" : "stars.png",
+            "position" : { "left" : "55",
+                "top" : "40"
+              },
+            "z-index" : "1"
+          }
+        ],
+      "position" : { "left" : "655",
+          "top" : "350"
+        },
+      "texts" : [ { "dimension" : { "height" : "350",
+                "width" : "300"
+              },
+            "id" : "text1",
+            "position" : { "left" : "100",
+                "top" : "350"
+              },
+            "text" : "Welcome to Dreamflight. Dreamflight is just a random word that came into my mind!!!",
+            "text_bg" : "splash4.png",
+            "title" : "\n               About Me!\n              "
+          } ],
+      "title" : "About me",
+      "weight" : "2"
+    },
+  "contact" : { "bg" : "page3.png",
+      "bg-color" : "#eee",
+      "bg-repeat" : "no-repeat",
+      "factor" : "1",
+      "id" : "contact",
+      "objects" : [ { "factor" : "0.6",
+            "id" : "cloud3",
+            "img" : "cloud.png",
+            "position" : { "left" : "650",
+                "top" : "175"
+              },
+            "z-index" : "0"
+          },
+          { "factor" : "-0.5",
+            "id" : "baloon3",
+            "img" : "baloon.png",
+            "position" : { "left" : "400",
+                "top" : "175"
+              },
+            "z-index" : "2"
+          },
+          { "factor" : "0",
+            "id" : "mailbox",
+            "img" : "mailbox.png",
+            "position" : { "left" : "700",
+                "top" : "375"
+              },
+            "z-index" : "2"
+          }
+        ],
+      "position" : { "left" : "100",
+          "top" : "150"
+        },
+      "texts" : [ { "dimension" : { "height" : "350",
+                "width" : "300"
+              },
+            "id" : "Contact",
+            "position" : { "left" : "100",
+                "top" : "350"
+              },
+            "text" : "\n <form action=\"\">\n   <div><label for=\"\">Name</label><input type=\"text\"></div>\n   <div><label for=\"\">Email</label><input type=\"text\"></div>\n   <div><label for=\"\">Subject</label><input type=\"text\"></div>\n   <div><label for=\"\">Message</label><textarea>

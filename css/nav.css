@@ -1,0 +1,82 @@
+/* header */
+#header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 900;
+}
+#header,
+#header a {
+	color: #939598;  
+}
+#header .wrapper {
+  min-width: 950px;
+  width: 950px;
+	height: 45px;
+}
+#header .nav  {
+	float: left;
+  opacity: 0.8;
+}
+.nav-item {
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 45px;
+  cursor: pointer;
+}
+#nav-welcome { background-image: url('../images/nav_1.png'); width: 119px; }
+#nav-projects { background-image: url('../images/nav_2.png'); width: 92px; }
+#nav-page2 { background-image: url('../images/nav_3.png'); width: 90px; }
+#nav-services { background-image: url('../images/nav_4.png'); width: 83px; }
+#nav-jobs { background-image: url('../images/nav_5.png'); width: 95px; }
+#header .nav-item.active,
+#header .nav-item:hover {
+  background:#888;
+}
+#header .nav .nav-item.active,
+#header .nav .nav-item:hover{
+  border-top-color: #af7;
+  color:#fff;
+}
+#header .nav li {
+  color: #999;
+  cursor: pointer;
+float: left;
+padding: 7px 10px;
+margin: 0;
+border-top: 3px solid;
+border-right: 1px solid;
+border-bottom: 1px solid;
+border-color:#ccc;
+height: auto;
+width: auto;
+background: #efefef;
+
+}
+.nav-item.first {
+  border-left: 1px solid;
+border-radius: 0 0 0 15px;
+}
+.nav-item.last {
+border-radius: 0 0 15px 0;
+}
+#header .contact {
+	float: right;
+}
+#header .contact-fb {
+	background: url('../images/fb.png') no-repeat center 11px;
+	width: 36px;
+	height: 46px;
+	cursor: pointer;
+	float: left;
+}
+#header .contact-email,
+#header .contact-phone {
+	line-height: 46px;
+	float: left;
+}
+#header .contact-email,
+#header .contact-fb,
+#header .contact-phone {
+	margin: 0 24px 0 0;
+}
